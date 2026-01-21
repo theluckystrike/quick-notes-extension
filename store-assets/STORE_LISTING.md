@@ -43,8 +43,17 @@ Under 10KB total. Zero performance impact on your browser. No bloat, just notes.
 - Code snippets
 - Shopping lists
 
+---
+
+🚀 **Part of the Zovo family**
+
+Want to request features or get early access to new tools?
+Join Zovo: https://zovo.one
+
+---
+
 ### Minimal Permissions
-Quick Notes only requires the "storage" permission to save your notes locally. We don't access your browsing data, history, or any websites.
+Quick Notes only requires "storage" and "contextMenus" permissions. We don't access your browsing data, history, or any websites.
 
 ### How to Use
 1. Click the Quick Notes icon in your toolbar
@@ -61,6 +70,9 @@ Productivity
 ## Language
 English (United States)
 
+## Website
+https://zovo.one
+
 ---
 
 ## Privacy Practices Tab
@@ -72,6 +84,9 @@ This extension provides a simple notepad that saves notes locally in the browser
 
 **storage:**
 Used to save user's notes locally in the browser so they persist between sessions. Notes are stored on the user's device and never transmitted externally.
+
+**contextMenus:**
+Used to add a "Request a feature" option when right-clicking the extension icon, allowing users to quickly access the feedback page. No user data is collected or transmitted.
 
 ### Remote Code
 This extension does not use any remote code. All JavaScript is bundled within the extension package.

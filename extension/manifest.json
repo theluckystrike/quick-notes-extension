@@ -4,8 +4,12 @@
   "version": "1.0.0",
   "description": "A simple notepad that lives in your browser. Click, type, done. Auto-saves instantly. No account needed.",
   "permissions": [
-    "storage"
+    "storage",
+    "contextMenus"
   ],
+  "background": {
+    "service_worker": "background.js"
+  },
   "action": {
     "default_popup": "popup.html",
     "default_icon": {

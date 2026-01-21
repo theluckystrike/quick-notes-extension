@@ -1,6 +1,9 @@
 // Quick Notes - Auto-save notepad
 
 document.addEventListener('DOMContentLoaded', () => {
+  // Clear badge when popup opens
+  chrome.runtime.sendMessage({ action: 'clearBadge' }).catch(() => {});
+
   const textarea = document.getElementById('notes');
   const charCount = document.getElementById('charCount');
   const status = document.getElementById('status');
